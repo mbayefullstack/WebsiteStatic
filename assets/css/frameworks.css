@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcspa {
+    justify-content:space-around;
+}
+
+.jcspb {
+    justify-content:space-between;
+}
+.aic {
+    align-items: center;
+} 
