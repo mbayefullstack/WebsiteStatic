@@ -16,3 +16,10 @@
 .aic {
     align-items: center;
 } 
+
+.wrap {
+    flex-wrap: wrap;
+}
+.fdc {
+    flex-direction: column;
+}

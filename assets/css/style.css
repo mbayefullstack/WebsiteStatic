@@ -10,6 +10,8 @@
 
 body {
     font-size: 21px;
+    margin: 0;
+    padding: 0;
 }
 /*****************************************
 /*  HEADER
@@ -28,6 +30,10 @@ header {
 
 /******************************************
 /*  MAIN
+/******************************************/
+
+/******************************************
+/*  SECTION 1
 /******************************************/
 section > h1 {
     text-transform: uppercase;
@@ -81,5 +87,155 @@ section > h1 {
 
 /***********************************
 /*  SECTION 3
-/***********************************
+/************************************/
 
+.section-3 {
+    width : 96vw;
+    position: relative;
+}
+
+.section-3-div-1 {
+    width: 20vw;
+    height: 60vh;
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    overflow: hidden;
+}
+
+.section-3-div-1 > h5 {
+    border: var(--warm) solid 5px;
+    text-align: center;
+}
+
+.section-3-div-1 > p {
+    font-size: .6em;
+}
+
+.section-3-div-2 {
+    width: 42vw;
+    height: 50vh;
+    float: left;
+    position: absolute;
+    left: 28vw;
+    top: 5px;
+    overflow: hidden;
+}
+
+.section-3-div-2 img {
+    float: left;
+    position: absolute;
+    left: 2vw;
+    top: 5px;
+}
+.section-3-div-2 section {
+    border: 5px solid var(--warm);
+    width: 28vw;
+    position: absolute;
+    top: 80px;
+    padding-top: 50px;
+}
+
+.section-3-div-2 section h5 {
+    text-align: center;
+    position: relative;
+}
+
+.section-3-div-2 section p {
+    text-align: end;
+    margin-left:    5vh;
+    font-size: .8em;
+}
+
+.section-3-div-3 {
+    position: absolute;
+    top: 20vw;
+    left: 28vw;
+    width: 28vw;
+    margin: 15px 0;
+
+}
+.section-3-div-3 img {
+    margin: 5px 20px;
+
+}
+.section-3-div-3 h5 {
+    border: 5px solid var(--warm);
+    text-align: center;
+}.section-3-div-3 p {
+    font-size: .5em;
+}
+
+/***********************************
+/*  SECTION 4
+/************************************/
+
+.section-4 {
+    clear: both;
+    position: absolute;
+    top: 60rem;
+    left: 20rem;
+}
+
+.section-4 div {
+    width: 25vw;
+}
+.section-4 div h3 {
+    text-align: center;
+}
+
+/***********************************
+/*  SECTION 5
+/************************************/
+.section-5 {
+    clear: both;
+    position: absolute;
+    top: 105rem;
+    left: 35rem;
+}
+.section-5 input {
+    width: 30rem;
+    height: 5em;
+    margin: 2px;
+    border: none;
+    
+}
+hr {
+    width: 5rem;
+    border: solid 3px var(--warm);
+    margin: 5px;
+    position: absolute;
+    top: 2rem;
+    left:  2rem;
+}
+.section-5 input:nth-child(1) {
+    background-color: rgb(214, 213, 213);
+    position: absolute;
+    top: 5rem;
+    right:  -9rem;
+}
+.section-5 input:nth-child(2) {
+    background-color: var(--warm);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 11rem;
+    right:  -9rem;
+}
+.section-5 p {
+    font-style: italic;
+    color: var(--warm);
+    position: absolute;
+    top: 17rem;
+    right:  1rem;
+}
+
+.section-6 {
+    display: flex;
+    position: absolute;
+    top: 128rem;
+    left: 10rem;
+    height: 20rem;
+}
