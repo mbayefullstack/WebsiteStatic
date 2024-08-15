@@ -232,10 +232,68 @@ hr {
     right:  1rem;
 }
 
+/***********************************
+/*  SECTION 6
+/************************************/
 .section-6 {
     display: flex;
     position: absolute;
     top: 128rem;
     left: 10rem;
     height: 20rem;
+}
+
+/***********************************
+/*  SECTION 7
+/************************************/
+.section-7 {
+    position: absolute;
+    left: 50rem;
+}
+
+.section-7-h5 {
+    border: solid var(--warm) 2px;
+    padding: 25px;
+    position: absolute;
+    top: 20px;
+    left:  60px;
+    width: 25rem;
+}
+
+.section-7 div:nth-child(1) > img {
+    position: absolute;
+    top: 80px;
+    left:  -60px;
+}
+.section-7 div:nth-child(1) > p {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    width: 18rem;
+}
+
+.section-7 div:nth-child(2) {
+    position: absolute;
+    top: 250px;
+}
+
+.section-7 div:nth-child(2)  img {
+    border-radius: 50%;
+}
+
+.section-7 div:nth-child(2)  h5 {
+    border: solid var(--warm) 2px;
+    z-index: -1;   
+    padding: 5rem;
+    position: absolute;
+    top: 80px;
+    left:  -35px;
+}
+
+.section-7 div:nth-child(2)  p {
+    position: absolute;
+    top: 200px;
+    left:  0px;
+    padding: 1em;
+    font-size: .5em;
 }
